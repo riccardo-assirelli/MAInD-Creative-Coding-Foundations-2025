@@ -1,0 +1,25 @@
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: pink;
+}
+
+.on-sale {
+    background-color: yellow;
+    font-size: 16px;
+}
+
+#best-one {
+    background-color:red;
+}
+
+a:hover li {
+    border: 1px solid black;
+}
