@@ -6,7 +6,7 @@ Starting from the concept of a **pinboard**, implement a web page that:
 - allows switching between at least two views
 
 ## Final Result
-![Screenshot 1](assets/screenshot1.png) ![Screenshot 2](assets/screenshot2.png)
+![Screenshot 1](assets/Screenshot1.png) ![Screenshot 2](assets/Screenshot2.png)
 
 ## Short Description
 **Weekly Playlist** is a personal web playlist based on an interactive circular song selector. It allows users to explore, play, and highlight the music I share. Each track can be activated with a click or marked as a favorite with a double-click, creating a customizable and engaging music space.
