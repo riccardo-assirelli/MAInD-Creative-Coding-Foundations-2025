@@ -13,7 +13,7 @@ const pipeSpeedX = -6;
 const gravityAmount = 0.8;
 const jumpSpeed = -10;
 
-const pipeInterval = 1000;
+const pipeInterval = 2000;
 const pipeGapRatio = 1/4;
 
 const scoreFont = "45px sans-serif";
