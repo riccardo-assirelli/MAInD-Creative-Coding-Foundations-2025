@@ -9,11 +9,11 @@ const birdHeight = 38;
 const pipeWidth = 85;
 const pipeHeight = 680;
 
-const pipeSpeedX = -6;
+const pipeSpeedX = -8;
 const gravityAmount = 0.8;
-const jumpSpeed = -10;
+const jumpSpeed = -9;
 
-const pipeInterval = 2000;
+const pipeInterval = 1250;
 const pipeGapRatio = 1/4;
 
 const scoreFont = "45px sans-serif";

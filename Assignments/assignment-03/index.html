@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <canvas id="board"></canvas>
+
+  <!-- Pop-up overlay -->
+  <div id="gamePopup" class="game-popup">
+    <div class="game-popup-content">
+      <h1 id="popupTitle">START PLAYING</h1>
+      <p class="popup-subtitle">Where do you want to play?</p>
+
+      <div class="style-options">
+        <div class="style-option" data-style="it"></div>
+        <div class="style-option" data-style="us"></div>
+        <div class="style-option" data-style="cn"></div>
+      </div>
+
+      <p id="popupInstruction" class="popup-instruction">
+        Click Space to Play
+      </p>
+    </div>
+  </div>
+</body>
+

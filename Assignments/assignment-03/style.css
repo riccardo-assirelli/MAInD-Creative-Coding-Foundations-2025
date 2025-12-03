@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #000;
+  font-family: 'Courier New', monospace;
+}
+
+/* game canvas */
+#board {
+  display: block;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+/* popup overlay */
+.game-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.game-popup.visible {
+  display: flex;
+}
+
+.game-popup-content {
+  background: #ffffff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* popup text */
+.popup-subtitle,
+.popup-instruction {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* style selector row */
+.style-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+/* selector thumbnails */
+.style-option {
+  width: 72px;
+  height: 48px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.style-option[data-style="it"] {
+  background-image: url("assets/flag_italy.png");
+}
+
+.style-option[data-style="us"] {
+  background-image: url("assets/flag_us.png");
+}
+
+.style-option[data-style="cn"] {
+  background-image: url("assets/flag_china.png");
+}
+
+.style-option.selected {
+  border: 2px solid #000;
+}
